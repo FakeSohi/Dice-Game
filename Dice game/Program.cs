@@ -29,7 +29,7 @@ internal class Program
 
         Console.ForegroundColor = ConsoleColor.White;
 
-        for (int i = 0; i < 2; i++) //Line will add up/"roll dice" 10 times.
+        for (int i = 0; i < 10; i++) //Line will add up/"roll dice" 10 times.
         {
             Console.WriteLine("Press any key to roll dice. ");
 
