@@ -55,9 +55,6 @@ internal class Program
             Console.WriteLine("Enemy AI Rolled: " + enemyRandomNum);
             Console.ForegroundColor = ConsoleColor.White;
 
-
-            Math.Max(playerRandomNum, enemyRandomNum);
-
             if (playerRandomNum > enemyRandomNum)
             {
                 ++playerScore;
